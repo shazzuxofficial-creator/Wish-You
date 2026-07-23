@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="styles/valentine.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Hearts Background Animation -->
+    <div class="heart-bg">
+        <span>❤️</span><span>💖</span><span>❤️</span><span>💘</span><span>💓</span>
+    </div>
+
+    <!-- Mobile Screen Frame Container -->
+    <div class="mobile-frame">
+        
+        <!-- Helpful text telling the user what to do -->
+        <div id="instructionText" class="instruction">Tap the envelope to open 💌</div>
+
+        <!-- The Interactive Envelope -->
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope">
+                
+                <!-- The Letter inside -->
+                <div class="letter">
+                    <h1 id="receiverName">Lily</h1>
+                    
+                    <p id="wishMessage" class="message">
+                        You make every single day brighter just by being in it. Thank you for filling my heart with endless love and joy. Happy Valentine's Day!
+                    </p>
+
+                    <div class="sender-section">
+                        <span>Forever yours,</span>
+                        <h3 id="senderName">John</h3>
+                    </div>
+                </div>
+
+                <!-- Envelope Parts -->
+                <div class="pocket"></div>
+                <div class="flap">
+                    <div class="heart-seal">💖</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/valentine.js"></script>
+</body>
+</html>
