@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Valentine's Day",
+    "description": "Send a romantic interactive letter to your special someone.",
+    "page": "valentine.html",
+    "icon": "❤️"
+  },
+  {
+    "title": "Birthday Wish",
+    "description": "Celebrate their special day with a joyful greeting card.",
+    "page": "birthday.html",
+    "icon": "🎂"
+  }
+]
